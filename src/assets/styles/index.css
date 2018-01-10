@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Quicksand' !important;
+}
+
+.bg-color-1 {
+  background: #e75c66 !important;
+}
+
+.bg-color-2 {
+  background: #e2af2d !important;
+}
+
+.bg-color-3 {
+  background: #66be50 !important;
+}
+
+.bg-color-4 {
+  background: #4fc4ca !important;
+}
+
+.bg-color-5 {
+  background: #7389ff !important;
+}
+
+.bg-color-6 {
+  background: #d471e6 !important;
+}
+
+.bg-color-7 {
+  background: #171b33 !important;
+}
+
+/* App */
+
+.app-menu {
+  font-family: 'Alegreya Sans SC' !important;
+  padding: 0em 3em 0em 3em !important;
+  margin: 0 !important;
+  background: white !important;
+  font-size: 1.2em !important;
+}
+
+.app-sticky {
+  padding-top: 2em;
+  z-index: 999 !important;
+  background: white !important;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .app-sticky {
+    position: absolute;
+    width: 100%;
+  }
+
+}
+
+/* Main */
+
+.main-container {
+  padding: 12em 0em 0em 0em;
+}
+
+.main-decoration {
+  margin-top: 2em;
+}
+
+.main-decoration .item {
+  height: 0.4em;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .main-container {
+    padding: 12em 4em 4em 4em;
+    height: 100vh;
+  }
+
+  .main-decoration {
+    position: absolute;
+    margin-top: 0; 
+    z-index: 900;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+}
+
+/* Works */
+
+.item-container {
+  font-family: 'Quicksand' !important;
+  margin-top: 0 !important;
+  padding: 4em 2em 2em 2em;
+}
+
+.badge-button {
+  color: #ffffff !important;
+  font-family: 'Quicksand' !important;
+  background: transparent none !important;
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15) !important;
+}
+
+.badge-button:hover {
+  background: rgba(255, 255, 255, 0.075) !important;
+  color: #ffffff !important;
+}
+
+.badge-button.labeled > .icon {
+  background: rgba(255, 255, 255, 0.15) !important;
+}
+
+.item-header {
+  font-size: 2.5em !important;
+  font-family: 'Quicksand' !important;
+}
+
+.item-description {
+  font-size: 0.5em !important;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .item-container {
+    height: 100vh;
+    padding: 8em 4em 4em 4em;
+  }
+
+  .item-header {
+    font-size: 4em !important;
+  }
+
+  .item-description {
+    font-size: 0.4em !important;
+  }
+
+}
+
+/* Team */
+
+.team-container {
+  padding: 4em;
+}
+
+/* Footer */
+
+.footer-container {
+  padding-top: 4em;
+  padding-bottom: 2em;
+  background: #171b33 !important;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.footer-container h1 {
+  color: white;
+}
+
+.footer-logo {
+  font-size: 2em;
+  font-family: 'Alegreya Sans SC' !important;
+  font-weight: 300;
+}
+
+.footer-copyright {
+  margin-top: 2em;
+  font-size: 0.8em;
+}
+
+.footer-container {
+  margin: 0 !important;
+}
+
+.footer-container a {
+	-moz-transition: color 0.2s ease, border-bottom 0.2s ease;
+	-webkit-transition: color 0.2s ease, border-bottom 0.2s ease;
+	-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
+	transition: color 0.2s ease, border-bottom 0.2s ease;
+	text-decoration: none;
+	border-bottom: dotted 1px;
+	color: inherit;
+}
+
+.footer-container a:hover {
+  color: white;
+  border-bottom-color: transparent;
+  text-decoration: none;
+}
+
+/* Icons */
+
+ul.footer-icons {
+	cursor: default;
+	list-style: none;
+	padding: 0;
+}
+
+ul.footer-icons li {
+  display: inline-block;
+	padding: 0 0.65em 0 0;
+}
+
+ul.footer-icons li:last-child {
+	padding-right: 0 !important;
+}
+
+/* Icon */
+
+.icon {
+	text-decoration: none;
+	-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  position: relative;
+}
+
+.icon > .social {
+  margin-left: 0.12em;
+}
+
+.icon.alt {
+  margin-top: 1em;
+	border: solid 1px;
+  border-radius: 100%;
+  width: 3.2em;
+  height: 3.2em;
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon.alt:hover {
+  text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.075);
+}
